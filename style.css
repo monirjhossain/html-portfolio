@@ -1,5 +1,5 @@
 body{
-    font-family: 'Tilt Warp', cursive;
+    /* font-family: 'Tilt Warp', cursive; */
     margin: 0;
 }
 .namecolor{
@@ -32,11 +32,11 @@ section{
 }
 p{
     font-size: 20px;
+    margin-top: auto;
 }
 .hum{
     font-size: 18px;
-    font-weight: 50;
-    line-height: 30px;
+    font-weight: 200;
 }
 .button {
     background-color: #4CAF50;
@@ -53,18 +53,15 @@ p{
     background-color: #0a5c0d;
     color: white;
   }
-  .gap{
-    margin-top: 20px;
-  }
+
   .dream-area{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
   }
   .namecolor2{
-    color: green;
-    font-size: 25px;
-    text-align: center;
+    color: rgb(23, 236, 41);
+    font-size: 12px;
   }
   .box{
     border-style: solid;
@@ -80,4 +77,36 @@ p{
   .center{
     text-align: center;
     text-decoration-line: underline;
+  }
+
+  .padding{
+    margin-top: -20px;
+  }
+  .experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 100%;
+    background-color: white;
+  }
+  .experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  #sidecolorleft{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg ,lightSalmon, tomato);
+    border-image-slice: 1;
+  }
+  #sidecolorrigt{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg ,rgb(8, 60, 231), rgb(13, 124, 168));
+    border-image-slice: 1;
+  }
+  .last{
+    text-align: center;
+    font-size: 12px;
+  }
+  .top{
+     padding-top: 70px;
   }
